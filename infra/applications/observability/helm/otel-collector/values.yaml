@@ -234,10 +234,10 @@ sidecars:
             receivers:
               - otlp
         telemetry:
-            metrics:
-              level: basic
-              readers:
-                - pull:
+          metrics:
+            level: basic
+            readers:
+              - pull:
                   exporter:
                     prometheus:
                       host: 0.0.0.0
@@ -308,10 +308,10 @@ sidecars:
               - prometheus
               - otlp
         telemetry:
-            metrics:
-              level: basic
-              readers:
-                - pull:
+          metrics:
+            level: basic
+            readers:
+              - pull:
                   exporter:
                     prometheus:
                       host: 0.0.0.0
